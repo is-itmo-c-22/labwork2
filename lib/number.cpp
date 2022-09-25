@@ -17,7 +17,11 @@ uint2022_t operator-(const uint2022_t& lhs, const uint2022_t& rhs) {
     return uint2022_t();
 }
 
-uint2022_t operator*(const uint2022_t& lhs, const uint2022_t& rhs){
+uint2022_t operator*(const uint2022_t& lhs, const uint2022_t& rhs) {
+    return uint2022_t();
+}
+
+uint2022_t operator/(const uint2022_t& lhs, const uint2022_t& rhs) {
     return uint2022_t();
 }
 
