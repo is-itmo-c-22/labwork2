@@ -7,7 +7,7 @@ struct uint2022_t {
     // implement
 };
 
-static_assert(sizeof(uint2022_t) <= 2200, "Size of uint2022_t must be no higher than 2200 bytes");
+static_assert(sizeof(uint2022_t) <= 300, "Size of uint2022_t must be no higher than 300 bytes");
 
 uint2022_t from_uint(uint32_t i);
 
