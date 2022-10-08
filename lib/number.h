@@ -1,7 +1,7 @@
 #pragma once
 #include <cinttypes>
 #include <iostream>
-
+#include <vector>
 
 struct uint2022_t {
     int number[68]{0};
