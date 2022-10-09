@@ -2,9 +2,8 @@
 #include <cinttypes>
 #include <iostream>
 
-
 struct uint2022_t {
-    // implement
+    int number[68]{0};
 };
 
 static_assert(sizeof(uint2022_t) <= 300, "Size of uint2022_t must be no higher than 300 bytes");
